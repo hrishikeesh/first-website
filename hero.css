@@ -1,7 +1,7 @@
 body{
     margin: 0;
     font-family: Helvetica, Arial, sans-serif;
-}
+    }
 
 header{
     background-color: rgb(255, 179, 0);
@@ -10,9 +10,9 @@ header{
 }
 
 h1,h2{
-    font-family:'Press Start 2P', Arial;
+    font-family:Arial; font-size: 60px;
 }
-
+/* header styles */
 h1{
     color: rgb(0, 0, 0);
     font-size: 60px;
@@ -20,18 +20,55 @@ h1{
 }
 
 header img{
-    border-radius: 300px;
+    border-radius: 300px; 
     width: 900px;
-    border: 20px solid white;
+    border: 20px solid rgb(255, 187, 0); 
+}
+
+h2{
+    margin: auto;
 }
 
 main{
     max-width: 100%;
-    margin-top: 0;
-    margin-bottom: 0;
+    margin: auto;
     text-align: center;
+    background-color: rgb(255, 179, 0);
 }
 
 main img{
-    max-width: 100%;
+    max-width: 100%;      
+    }
+
+p1{
+    font-size: 30px;
+}
+
+a{
+    color: #e70c19;
+}
+a:hover{
+    color:rgb(0, 0, 0);
+    background-color:#e70c19;
+}
+
+footer{
+    background-color: rgb(255, 179, 0);
+    text-align: center;
+    padding: 30px;
+}
+footer p{
+    margin: 0;
+}
+
+Footer a:hover{
+    opacity: .6;
+    color: white;
+}
+
+p.caption{
+    color: #000000;
+}
+p{
+    margin: 0;
 }
