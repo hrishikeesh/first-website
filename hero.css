@@ -26,13 +26,15 @@ header img{
 }
 
 h2{
-    margin: auto;
+    margin: 00;
 }
 
-main{
-    max-width: 100%;
-    margin: auto;
+ol{
     text-align: center;
+}
+main{
+    padding: 0 20px;
+    margin:0 auto;
     background-color: rgb(255, 179, 0);
 }
 
@@ -72,3 +74,4 @@ p.caption{
 p{
     margin: 0;
 }
+
